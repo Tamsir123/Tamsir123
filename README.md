@@ -1,7 +1,3 @@
-<p align="left">  
-  <img src="https://komarev.com/ghpvc/?username=Tamsir123&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />  
-</p>
-
 
 <p align="center">  
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00FF7F&center=true&vCenter=true&width=700&lines=Fullstack+%7C+AI+%2F+ML+%7C+IoT+%7C+Data+%2B+Cloud" alt="Typing SVG" />  
