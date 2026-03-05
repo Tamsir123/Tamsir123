@@ -65,13 +65,6 @@
 
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Tamsir123&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&title_color=00FF7F&icon_color=00FF7F&text_color=c9d1d9&bg_color=0d1117" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tamsir123&layout=compact&theme=github_dark&hide_border=true&title_color=00FF7F&text_color=c9d1d9&bg_color=0d1117" />
-
-</div>
-
-<div align="center">
-
   <img src="https://streak-stats.demolab.com?user=Tamsir123&theme=dark&hide_border=true&stroke=00FF7F&ring=00FF7F&fire=00FF7F&currStreakLabel=00FF7F&sideLabels=00FF7F&dates=c9d1d9&background=0d1117" />
 
 </div>
@@ -84,13 +77,6 @@
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Tamsir123&theme=matrix&no-frame=true&no-bg=true&margin-w=5&column=7" />
-</div>
-
----
 
 ## 🤝 Let's Connect
 
