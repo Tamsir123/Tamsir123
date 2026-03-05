@@ -97,5 +97,5 @@ Fullstack Developer and AI Engineer . I build complete web applications from the
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer" />
-  <sub>⚡ Crafted with precision by <strong>Tamsir</strong> — <em>Building the future, one commit at a time.</em></sub>
+  <sub> Crafted with precision by <strong>Tamsir</strong> — <em>Building the future, one commit at a time.</em></sub>
 </div>
