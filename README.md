@@ -15,7 +15,7 @@
 
 ##  About Me
 
-Fullstack Developer and AI Engineer based in Senegal. I build complete web applications — from the interface to the server — and integrate machine learning to create products that are both functional and intelligent. I also handle deployment and infrastructure to ensure that what I build runs reliably in production. I care about writing clean code and delivering software that actually solves problems.
+Fullstack Developer and AI Engineer . I build complete web applications from the interface to the server and integrate machine learning to create products that are both functional and intelligent. I also handle deployment and infrastructure to ensure that what I build runs reliably in production. I care about writing clean code and delivering software that actually solves problems.
 
 ---
 
