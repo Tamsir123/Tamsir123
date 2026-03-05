@@ -96,9 +96,9 @@
 
 <div align="center">
 
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" /></a>
+  <a href="https://www.linkedin.com/in/tamsir-ababacar-diouf-04641425b"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" /></a>
   &nbsp;
-  <a href="mailto:"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" /></a>
+  <a href="tamsirababacardiouf@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" /></a>
   &nbsp;
   <a href="https://github.com/Tamsir123"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" /></a>
 
