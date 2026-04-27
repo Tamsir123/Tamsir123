@@ -82,15 +82,7 @@ Fullstack Developer and AI Engineer . I build complete web applications from the
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tamsir123&theme=github_dark" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tamsir123&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tamsir123&theme=github_dark" />
-</div>
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tamsir123&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tamsir123&theme=github_dark&utcOffset=0" />
-</div>
 
 ---
 
