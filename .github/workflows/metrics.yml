@@ -17,11 +17,14 @@ jobs:
       contents: write
 
     steps:
-      - name: Generate GitHub profile metrics
+      # =========================
+      # 1. Profile overview
+      # =========================
+      - name: Profile overview
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics.svg
+          filename: metrics-profile.svg
           user: Tamsir123
 
           template: classic
@@ -29,38 +32,129 @@ jobs:
           config_timezone: Africa/Casablanca
           config_theme: dark
           config_display: large
-
-          # Better error visibility
           plugins_errors_fatal: no
 
-          # Languages
+      # =========================
+      # 2. Languages
+      # =========================
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics-languages.svg
+          user: Tamsir123
+
+          template: classic
+          base: ""
+          config_timezone: Africa/Casablanca
+          config_theme: dark
+          plugins_errors_fatal: no
+
           plugin_languages: yes
           plugin_languages_limit: 8
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_colors: github
+          plugin_languages_sections: most-used
           plugin_languages_details: percentage
+          plugin_languages_colors: github
           plugin_languages_threshold: 0%
+          plugin_languages_indepth: yes
 
-          # Contributions calendar
+      # =========================
+      # 3. Starred topics - icons
+      # =========================
+      - name: Starred topics icons
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics-topics-icons.svg
+          user: Tamsir123
+
+          template: classic
+          base: ""
+          config_timezone: Africa/Casablanca
+          config_theme: dark
+          plugins_errors_fatal: no
+
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_sort: starred
+          plugin_topics_limit: 0
+
+      # =========================
+      # 4. Starred topics - labels
+      # =========================
+      - name: Starred topics labels
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics-topics-labels.svg
+          user: Tamsir123
+
+          template: classic
+          base: ""
+          config_timezone: Africa/Casablanca
+          config_theme: dark
+          plugins_errors_fatal: no
+
+          plugin_topics: yes
+          plugin_topics_mode: labels
+          plugin_topics_sort: starred
+          plugin_topics_limit: 20
+
+      # =========================
+      # 5. Achievements
+      # =========================
+      - name: GitHub achievements
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics-achievements.svg
+          user: Tamsir123
+
+          template: classic
+          base: ""
+          config_timezone: Africa/Casablanca
+          config_theme: dark
+          plugins_errors_fatal: no
+
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+
+      # =========================
+      # 6. Contributions calendar
+      # =========================
+      - name: Contributions calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics-calendar.svg
+          user: Tamsir123
+
+          template: classic
+          base: ""
+          config_timezone: Africa/Casablanca
+          config_theme: dark
+          plugins_errors_fatal: no
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Topics / icons
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topics_sort: stars
-          plugin_topics_limit: 30
+      # =========================
+      # 7. Featured repositories
+      # =========================
+      - name: Featured repositories
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics-repositories.svg
+          user: Tamsir123
 
-          # Achievements
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
+          template: classic
+          base: ""
+          config_timezone: Africa/Casablanca
+          config_theme: dark
+          plugins_errors_fatal: no
 
-          # Lines of code
-          plugin_lines: yes
-          plugin_lines_sections: base
-
-          # Repositories
           plugin_repositories: yes
           plugin_repositories_featured: Tamsir123/API-RESTfull-Spring-Java, Tamsir123/Dice-Challenge, Tamsir123/Jeu-pendule, Tamsir123/To-Do-List
