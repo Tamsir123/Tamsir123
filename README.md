@@ -23,14 +23,6 @@
   </tr>
 </table>
 
-<p align="center">
-  <img src="./metrics-repositories.svg" alt="Featured Repositories" width="100%">
-</p>
-
-<p align="center">
-  <img src="./metrics-calendar.svg" alt="Contribution Calendar" width="100%">
-</p>
-
 <h2 align="center">🏅 Certifications</h2>
 
 <p align="center">
