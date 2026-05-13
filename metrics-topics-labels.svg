@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="68" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="97" class="">
     <defs>
         <style/>
     </defs>
@@ -16,6 +16,8 @@
                 <div class="row">
                     <section>
                         <div class="topics fill-width">
+                            <div class="label" title="">swagger</div>
+                            <div class="label" title="FastAPI is a modern &amp;amp; fast web framework for building APIs with Python 3.7+ based on standard Python type hints.">fastapi</div>
                             <div class="label" title="A database is a structured set of data held in a computer, usually a server.">database</div>
                             <div class="label" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.">typescript</div>
                             <div class="label" title="React is an open source JavaScript library used for designing user interfaces.">react</div>
