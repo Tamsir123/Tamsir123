@@ -119,7 +119,7 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_display: detailed
-          plugin_achievements_secrets: yesname: GitHub Metrics
+          plugin_achievements_secrets: yes
 
 on:
   schedule:
